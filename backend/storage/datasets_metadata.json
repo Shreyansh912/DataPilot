@@ -1,0 +1,720 @@
+{
+  "bbd237dc": {
+    "dataset_id": "bbd237dc",
+    "id": "bbd237dc",
+    "filename": "Admission_Predict.csv",
+    "file_path": "C:\\Users\\shrey\\OneDrive\\Desktop\\Project\\DataPilot\\datapilot\\backend\\storage\\datasets\\bbd237dc_Admission_Predict.csv",
+    "row_count": 400,
+    "column_count": 9,
+    "duplicate_rows": 0,
+    "preview": [
+      {
+        "Serial No.": 1,
+        "GRE Score": 337,
+        "TOEFL Score": 118,
+        "University Rating": 4,
+        "SOP": 4.5,
+        "LOR": 4.5,
+        "CGPA": 9.65,
+        "Research": 1,
+        "Chance of Admit": 0.92
+      },
+      {
+        "Serial No.": 2,
+        "GRE Score": 324,
+        "TOEFL Score": 107,
+        "University Rating": 4,
+        "SOP": 4.0,
+        "LOR": 4.5,
+        "CGPA": 8.87,
+        "Research": 1,
+        "Chance of Admit": 0.76
+      },
+      {
+        "Serial No.": 3,
+        "GRE Score": 316,
+        "TOEFL Score": 104,
+        "University Rating": 3,
+        "SOP": 3.0,
+        "LOR": 3.5,
+        "CGPA": 8.0,
+        "Research": 1,
+        "Chance of Admit": 0.72
+      },
+      {
+        "Serial No.": 4,
+        "GRE Score": 322,
+        "TOEFL Score": 110,
+        "University Rating": 3,
+        "SOP": 3.5,
+        "LOR": 2.5,
+        "CGPA": 8.67,
+        "Research": 1,
+        "Chance of Admit": 0.8
+      },
+      {
+        "Serial No.": 5,
+        "GRE Score": 314,
+        "TOEFL Score": 103,
+        "University Rating": 2,
+        "SOP": 2.0,
+        "LOR": 3.0,
+        "CGPA": 8.21,
+        "Research": 0,
+        "Chance of Admit": 0.65
+      }
+    ],
+    "columns": [
+      {
+        "name": "Serial No."
+      },
+      {
+        "name": "GRE Score"
+      },
+      {
+        "name": "TOEFL Score"
+      },
+      {
+        "name": "University Rating"
+      },
+      {
+        "name": "SOP"
+      },
+      {
+        "name": "LOR"
+      },
+      {
+        "name": "CGPA"
+      },
+      {
+        "name": "Research"
+      },
+      {
+        "name": "Chance of Admit"
+      }
+    ],
+    "profile": {
+      "overview": {
+        "row_count": 400,
+        "column_count": 9,
+        "duplicate_rows": 0,
+        "numeric_columns": [
+          "Serial No.",
+          "GRE Score",
+          "TOEFL Score",
+          "University Rating",
+          "SOP",
+          "LOR",
+          "CGPA",
+          "Research",
+          "Chance of Admit"
+        ],
+        "categorical_columns": [],
+        "datetime_columns": []
+      },
+      "columns": {
+        "Serial No.": {
+          "name": "Serial No.",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "cardinality": 400,
+          "category": "numerical",
+          "dtype": "int64",
+          "mean": 200.5,
+          "min": 1.0,
+          "max": 400.0
+        },
+        "GRE Score": {
+          "name": "GRE Score",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "cardinality": 49,
+          "category": "numerical",
+          "dtype": "int64",
+          "mean": 316.81,
+          "min": 290.0,
+          "max": 340.0
+        },
+        "TOEFL Score": {
+          "name": "TOEFL Score",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "cardinality": 29,
+          "category": "numerical",
+          "dtype": "int64",
+          "mean": 107.41,
+          "min": 92.0,
+          "max": 120.0
+        },
+        "University Rating": {
+          "name": "University Rating",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "cardinality": 5,
+          "category": "numerical",
+          "dtype": "int64",
+          "mean": 3.09,
+          "min": 1.0,
+          "max": 5.0
+        },
+        "SOP": {
+          "name": "SOP",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "cardinality": 9,
+          "category": "numerical",
+          "dtype": "float64",
+          "mean": 3.4,
+          "min": 1.0,
+          "max": 5.0
+        },
+        "LOR": {
+          "name": "LOR",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "cardinality": 9,
+          "category": "numerical",
+          "dtype": "float64",
+          "mean": 3.45,
+          "min": 1.0,
+          "max": 5.0
+        },
+        "CGPA": {
+          "name": "CGPA",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "cardinality": 168,
+          "category": "numerical",
+          "dtype": "float64",
+          "mean": 8.6,
+          "min": 6.8,
+          "max": 9.92
+        },
+        "Research": {
+          "name": "Research",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "cardinality": 2,
+          "category": "numerical",
+          "dtype": "int64",
+          "mean": 0.55,
+          "min": 0.0,
+          "max": 1.0
+        },
+        "Chance of Admit": {
+          "name": "Chance of Admit",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "cardinality": 60,
+          "category": "numerical",
+          "dtype": "float64",
+          "mean": 0.72,
+          "min": 0.34,
+          "max": 0.97
+        }
+      }
+    },
+    "file_size_bytes": 12903
+  },
+  "1fcb9594": {
+    "dataset_id": "1fcb9594",
+    "id": "1fcb9594",
+    "filename": "Churn_Modelling.csv",
+    "file_path": "C:\\Users\\shrey\\OneDrive\\Desktop\\Project\\DataPilot\\datapilot\\backend\\storage\\datasets\\1fcb9594_Churn_Modelling.csv",
+    "row_count": 10000,
+    "column_count": 14,
+    "duplicate_rows": 0,
+    "preview": [
+      {
+        "RowNumber": 1,
+        "CustomerId": 15634602,
+        "Surname": "Hargrave",
+        "CreditScore": 619,
+        "Geography": "France",
+        "Gender": "Female",
+        "Age": 42,
+        "Tenure": 2,
+        "Balance": 0.0,
+        "NumOfProducts": 1,
+        "HasCrCard": 1,
+        "IsActiveMember": 1,
+        "EstimatedSalary": 101348.88,
+        "Exited": 1
+      },
+      {
+        "RowNumber": 2,
+        "CustomerId": 15647311,
+        "Surname": "Hill",
+        "CreditScore": 608,
+        "Geography": "Spain",
+        "Gender": "Female",
+        "Age": 41,
+        "Tenure": 1,
+        "Balance": 83807.86,
+        "NumOfProducts": 1,
+        "HasCrCard": 0,
+        "IsActiveMember": 1,
+        "EstimatedSalary": 112542.58,
+        "Exited": 0
+      },
+      {
+        "RowNumber": 3,
+        "CustomerId": 15619304,
+        "Surname": "Onio",
+        "CreditScore": 502,
+        "Geography": "France",
+        "Gender": "Female",
+        "Age": 42,
+        "Tenure": 8,
+        "Balance": 159660.8,
+        "NumOfProducts": 3,
+        "HasCrCard": 1,
+        "IsActiveMember": 0,
+        "EstimatedSalary": 113931.57,
+        "Exited": 1
+      },
+      {
+        "RowNumber": 4,
+        "CustomerId": 15701354,
+        "Surname": "Boni",
+        "CreditScore": 699,
+        "Geography": "France",
+        "Gender": "Female",
+        "Age": 39,
+        "Tenure": 1,
+        "Balance": 0.0,
+        "NumOfProducts": 2,
+        "HasCrCard": 0,
+        "IsActiveMember": 0,
+        "EstimatedSalary": 93826.63,
+        "Exited": 0
+      },
+      {
+        "RowNumber": 5,
+        "CustomerId": 15737888,
+        "Surname": "Mitchell",
+        "CreditScore": 850,
+        "Geography": "Spain",
+        "Gender": "Female",
+        "Age": 43,
+        "Tenure": 2,
+        "Balance": 125510.82,
+        "NumOfProducts": 1,
+        "HasCrCard": 1,
+        "IsActiveMember": 1,
+        "EstimatedSalary": 79084.1,
+        "Exited": 0
+      }
+    ],
+    "columns": [
+      {
+        "name": "RowNumber"
+      },
+      {
+        "name": "CustomerId"
+      },
+      {
+        "name": "Surname"
+      },
+      {
+        "name": "CreditScore"
+      },
+      {
+        "name": "Geography"
+      },
+      {
+        "name": "Gender"
+      },
+      {
+        "name": "Age"
+      },
+      {
+        "name": "Tenure"
+      },
+      {
+        "name": "Balance"
+      },
+      {
+        "name": "NumOfProducts"
+      },
+      {
+        "name": "HasCrCard"
+      },
+      {
+        "name": "IsActiveMember"
+      },
+      {
+        "name": "EstimatedSalary"
+      },
+      {
+        "name": "Exited"
+      }
+    ],
+    "profile": {
+      "overview": {
+        "row_count": 10000,
+        "column_count": 14,
+        "duplicate_rows": 0,
+        "numeric_columns": [
+          "RowNumber",
+          "CustomerId",
+          "CreditScore",
+          "Age",
+          "Tenure",
+          "Balance",
+          "NumOfProducts",
+          "HasCrCard",
+          "IsActiveMember",
+          "EstimatedSalary",
+          "Exited"
+        ],
+        "categorical_columns": [
+          "Surname",
+          "Geography",
+          "Gender"
+        ],
+        "datetime_columns": []
+      },
+      "columns": {
+        "RowNumber": {
+          "name": "RowNumber",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "cardinality": 10000,
+          "category": "numerical",
+          "dtype": "int64",
+          "mean": 5000.5,
+          "min": 1.0,
+          "max": 10000.0
+        },
+        "CustomerId": {
+          "name": "CustomerId",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "cardinality": 10000,
+          "category": "numerical",
+          "dtype": "int64",
+          "mean": 15690940.57,
+          "min": 15565701.0,
+          "max": 15815690.0
+        },
+        "Surname": {
+          "name": "Surname",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "cardinality": 2932,
+          "category": "categorical",
+          "dtype": "string"
+        },
+        "CreditScore": {
+          "name": "CreditScore",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "cardinality": 460,
+          "category": "numerical",
+          "dtype": "int64",
+          "mean": 650.53,
+          "min": 350.0,
+          "max": 850.0
+        },
+        "Geography": {
+          "name": "Geography",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "cardinality": 3,
+          "category": "categorical",
+          "dtype": "string"
+        },
+        "Gender": {
+          "name": "Gender",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "cardinality": 2,
+          "category": "categorical",
+          "dtype": "string"
+        },
+        "Age": {
+          "name": "Age",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "cardinality": 70,
+          "category": "numerical",
+          "dtype": "int64",
+          "mean": 38.92,
+          "min": 18.0,
+          "max": 92.0
+        },
+        "Tenure": {
+          "name": "Tenure",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "cardinality": 11,
+          "category": "numerical",
+          "dtype": "int64",
+          "mean": 5.01,
+          "min": 0.0,
+          "max": 10.0
+        },
+        "Balance": {
+          "name": "Balance",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "cardinality": 6382,
+          "category": "numerical",
+          "dtype": "float64",
+          "mean": 76485.89,
+          "min": 0.0,
+          "max": 250898.09
+        },
+        "NumOfProducts": {
+          "name": "NumOfProducts",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "cardinality": 4,
+          "category": "numerical",
+          "dtype": "int64",
+          "mean": 1.53,
+          "min": 1.0,
+          "max": 4.0
+        },
+        "HasCrCard": {
+          "name": "HasCrCard",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "cardinality": 2,
+          "category": "numerical",
+          "dtype": "int64",
+          "mean": 0.71,
+          "min": 0.0,
+          "max": 1.0
+        },
+        "IsActiveMember": {
+          "name": "IsActiveMember",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "cardinality": 2,
+          "category": "numerical",
+          "dtype": "int64",
+          "mean": 0.52,
+          "min": 0.0,
+          "max": 1.0
+        },
+        "EstimatedSalary": {
+          "name": "EstimatedSalary",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "cardinality": 9999,
+          "category": "numerical",
+          "dtype": "float64",
+          "mean": 100090.24,
+          "min": 11.58,
+          "max": 199992.48
+        },
+        "Exited": {
+          "name": "Exited",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "cardinality": 2,
+          "category": "numerical",
+          "dtype": "int64",
+          "mean": 0.2,
+          "min": 0.0,
+          "max": 1.0
+        }
+      }
+    },
+    "file_size_bytes": 684858
+  },
+  "6622a168": {
+    "dataset_id": "6622a168",
+    "id": "6622a168",
+    "filename": "titanic.csv",
+    "file_path": "C:\\Users\\shrey\\OneDrive\\Desktop\\Project\\DataPilot\\datapilot\\backend\\storage\\datasets\\6622a168_titanic.csv",
+    "row_count": 714,
+    "column_count": 8,
+    "duplicate_rows": 0,
+    "preview": [
+      {
+        "survived": 0,
+        "pclass": 3,
+        "name": "Braund, Mr. Owen Harris",
+        "sex": "male",
+        "age": 22.0,
+        "fare": 7.25,
+        "sibsp": 1,
+        "parch": 0
+      },
+      {
+        "survived": 1,
+        "pclass": 1,
+        "name": "Cumings, Mrs. John Bradley (Florence Briggs Thayer)",
+        "sex": "female",
+        "age": 38.0,
+        "fare": 71.2833,
+        "sibsp": 1,
+        "parch": 0
+      },
+      {
+        "survived": 1,
+        "pclass": 3,
+        "name": "Heikkinen, Miss. Laina",
+        "sex": "female",
+        "age": 26.0,
+        "fare": 7.925,
+        "sibsp": 0,
+        "parch": 0
+      },
+      {
+        "survived": 1,
+        "pclass": 1,
+        "name": "Futrelle, Mrs. Jacques Heath (Lily May Peel)",
+        "sex": "female",
+        "age": 35.0,
+        "fare": 53.1,
+        "sibsp": 1,
+        "parch": 0
+      },
+      {
+        "survived": 0,
+        "pclass": 3,
+        "name": "Allen, Mr. William Henry",
+        "sex": "male",
+        "age": 35.0,
+        "fare": 8.05,
+        "sibsp": 0,
+        "parch": 0
+      }
+    ],
+    "columns": [
+      {
+        "name": "survived"
+      },
+      {
+        "name": "pclass"
+      },
+      {
+        "name": "name"
+      },
+      {
+        "name": "sex"
+      },
+      {
+        "name": "age"
+      },
+      {
+        "name": "fare"
+      },
+      {
+        "name": "sibsp"
+      },
+      {
+        "name": "parch"
+      }
+    ],
+    "profile": {
+      "overview": {
+        "row_count": 714,
+        "column_count": 8,
+        "duplicate_rows": 0,
+        "numeric_columns": [
+          "survived",
+          "pclass",
+          "age",
+          "fare",
+          "sibsp",
+          "parch"
+        ],
+        "categorical_columns": [
+          "name",
+          "sex"
+        ],
+        "datetime_columns": []
+      },
+      "columns": {
+        "survived": {
+          "name": "survived",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "cardinality": 2,
+          "category": "numerical",
+          "dtype": "int64",
+          "mean": 0.41,
+          "min": 0.0,
+          "max": 1.0
+        },
+        "pclass": {
+          "name": "pclass",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "cardinality": 3,
+          "category": "numerical",
+          "dtype": "int64",
+          "mean": 2.24,
+          "min": 1.0,
+          "max": 3.0
+        },
+        "name": {
+          "name": "name",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "cardinality": 714,
+          "category": "categorical",
+          "dtype": "string"
+        },
+        "sex": {
+          "name": "sex",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "cardinality": 2,
+          "category": "categorical",
+          "dtype": "string"
+        },
+        "age": {
+          "name": "age",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "cardinality": 88,
+          "category": "numerical",
+          "dtype": "float64",
+          "mean": 29.7,
+          "min": 0.42,
+          "max": 80.0
+        },
+        "fare": {
+          "name": "fare",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "cardinality": 220,
+          "category": "numerical",
+          "dtype": "float64",
+          "mean": 34.69,
+          "min": 0.0,
+          "max": 512.33
+        },
+        "sibsp": {
+          "name": "sibsp",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "cardinality": 6,
+          "category": "numerical",
+          "dtype": "int64",
+          "mean": 0.51,
+          "min": 0.0,
+          "max": 5.0
+        },
+        "parch": {
+          "name": "parch",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "cardinality": 7,
+          "category": "numerical",
+          "dtype": "int64",
+          "mean": 0.43,
+          "min": 0.0,
+          "max": 6.0
+        }
+      }
+    },
+    "file_size_bytes": 39720
+  }
+}
